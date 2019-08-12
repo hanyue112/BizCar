@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "b46130ce-f3b3-48bd-91b0-3c5be64cc258",
+		"name": "BizCover",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "BizCover1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44397/api/carsales",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"carsales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Make",
+							"value": "LandRover",
+							"type": "text"
+						},
+						{
+							"key": "Model",
+							"value": "Discovery",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2017",
+							"type": "text"
+						},
+						{
+							"key": "CountryManufactured",
+							"value": "British",
+							"type": "text"
+						},
+						{
+							"key": "Colour",
+							"value": "White",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "46050",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44391/api/CachedCars",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"CachedCars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutCar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Make",
+							"value": "LandRover",
+							"type": "text"
+						},
+						{
+							"key": "Model",
+							"value": "Discovery",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2017",
+							"type": "text"
+						},
+						{
+							"key": "CountryManufactured",
+							"value": "British",
+							"type": "text"
+						},
+						{
+							"key": "Colour",
+							"value": "White",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "34633",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44391/api/CachedCars/9",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"CachedCars",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44391/api/CachedCars",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44391",
+					"path": [
+						"api",
+						"CachedCars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CarSalesGetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44397/api/CarSales",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"CarSales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CarSalesAddCar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Make",
+							"value": "LandRover",
+							"type": "text"
+						},
+						{
+							"key": "Model",
+							"value": "Discovery",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2017",
+							"type": "text"
+						},
+						{
+							"key": "CountryManufactured",
+							"value": "British",
+							"type": "text"
+						},
+						{
+							"key": "Colour",
+							"value": "White",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "46050",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/CarSales",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"CarSales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CarSalesUpdateCar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Make",
+							"value": "LandRover",
+							"type": "text"
+						},
+						{
+							"key": "Model",
+							"value": "Discovery",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2017",
+							"type": "text"
+						},
+						{
+							"key": "CountryManufactured",
+							"value": "British",
+							"type": "text"
+						},
+						{
+							"key": "Colour",
+							"value": "White",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "46050",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/CarSales/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"CarSales",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
